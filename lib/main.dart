@@ -1,3 +1,5 @@
+import 'package:appilon/screens/home_page.dart';
+import 'package:appilon/theme/colors.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,9 +16,10 @@ class MyWidget extends StatefulWidget {
 class _MyWidgetState extends State<MyWidget> {
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(body: Center(child: Text('Hello World'))),
+    return MaterialApp(
+      theme: ThemeData(scaffoldBackgroundColor: AppColors.background),
+      title: 'Appilon',
+      home: HomePage(),
     );
   }
 }

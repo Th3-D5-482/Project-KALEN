@@ -1,4 +1,6 @@
-# appilon
+# KALEN (Knowledgeable Artificially Learned Enhanced Network)
+
+# CodeName: Project Appilon
 
 A new Flutter project.
 
