@@ -1,4 +1,5 @@
 import 'package:appilon/components/navBar.dart';
+import 'package:appilon/components/search_section.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -6,11 +7,16 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       body: Row(
         children: [
           Navbar(),
-          Column(children: []),
+          Column(
+            children: [
+              Expanded(child: SearchSection()),
+              Container(height: 20),
+            ],
+          ),
         ],
       ),
     );
