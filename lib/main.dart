@@ -23,7 +23,7 @@ class _MyWidgetState extends State<MyWidget> {
         colorScheme: ColorScheme.fromSeed(seedColor: AppColors.submitButton),
         textTheme: GoogleFonts.interTextTheme(ThemeData.dark().textTheme),
       ),
-      title: 'Appilon',
+      title: 'KALEN',
       home: HomePage(),
     );
   }
